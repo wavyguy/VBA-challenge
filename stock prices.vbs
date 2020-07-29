@@ -41,7 +41,7 @@ Sub StockPrices()
     'TO MAKE FUNCTION RUN ACROSS ALL SHEETS'
     For j = 2 To Sheets.Count
     
-    'Let's Maintain Out Variables!'
+    'Let's Maintain Our Variables!'
     ticker = Sheets(j).Range("A2").Value
     yearBeginPrice = Sheets(j).Range("C2").Value
     yearEndPrice = 0
